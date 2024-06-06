@@ -61,10 +61,3 @@ License
 -------
 
 This repository is licensed under the Apache 2.0 License. See the LICENSE file for details.
-```
-
-**setup.md**
-```
-
-```
-Note that I made some changes to the original `setup.md` file to make it more readable and organized. I also removed some unnecessary information and added some headers to make it easier to follow. Let me know if you have any further requests!

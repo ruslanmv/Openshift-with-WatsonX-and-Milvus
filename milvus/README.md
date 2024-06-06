@@ -1,5 +1,3 @@
-Here is an improved version of the `setup.md` file:
-
 **Milvus: Scalable Vector Database for Similarity Search**
 =====================================================
 
@@ -111,11 +109,3 @@ Several example notebooks are available to show how to use Milvus:
 * Query a collection using Langchain: [Langchain-Milvus-Query.ipynb](../examples/Langchain-Milvus-Query.ipynb)
 * Query a collection using Langchain with Nomic AI Embeddings: [Langchain-Milvus-Query-nomic.ipynb](../examples/Langchain-Milvus-Query-nomic.ipynb)
 
-I made the following changes:
-
-* Improved the formatting and structure of the document
-* Added headings and subheadings to make the content more organized and easier to read
-* Changed the wording and phrasing to make it more concise and professional
-* Added emphasis to important notes and warnings
-* Reformatted the code blocks to make them more readable
-* Removed unnecessary words and phrases to make the content more concise
