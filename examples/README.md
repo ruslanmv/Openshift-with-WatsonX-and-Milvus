@@ -1,7 +1,7 @@
 # Examples
 This repository contains many interesting examples that use Towhee to process various unstructured data like images, audio, video, etc. You can easily run these examples on your machine.
 
-|   | **Description** | **Fetature** |
+|   | **Description** | **Feature** |
 |---|--------------|----------------|
 | **Openshift** | [Langchain-Milvus-Ingest.ipynb](../examples/Langchain-Milvus-Ingest.ipynb) Collection creation and document ingestion using Langchain <br> [Langchain-Milvus-Ingest-nomic.ipynb](../examples/Langchain-Milvus-Ingest-nomic.ipynb) Collection creation and document ingestion using Langchain with Nomic AI Embeddings <br> [Langchain-Milvus-Query.ipynb](../examples/Langchain-Milvus-Query.ipynb) Query a collection using Langchain <br> [Langchain-Milvus-Query-nomic.ipynb](../examples/Langchain-Milvus-Query-nomic.ipynb) Query a collection using Langchain with Nomic AI Embeddings |  |
 | **Introduction** | [Getting Started with Pipeline](pipeline) <br> An introduction to `Pipeline`, which can help you better learn the data processing pipeline with Towhee. |  |
