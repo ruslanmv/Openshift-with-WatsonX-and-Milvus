@@ -1,0 +1,24 @@
+# Examples
+This repository contains many interesting examples that use Towhee to process various unstructured data like images, audio, video, etc. You can easily run these examples on your machine.
+
+|   | **Description** | **Fetature** |
+|---|--------------|----------------|
+| **Openshift** | [Langchain-Milvus-Ingest.ipynb](../examples/Langchain-Milvus-Ingest.ipynb) Collection creation and document ingestion using Langchain <br> [Langchain-Milvus-Ingest-nomic.ipynb](../examples/Langchain-Milvus-Ingest-nomic.ipynb) Collection creation and document ingestion using Langchain with Nomic AI Embeddings <br> [Langchain-Milvus-Query.ipynb](../examples/Langchain-Milvus-Query.ipynb) Query a collection using Langchain <br> [Langchain-Milvus-Query-nomic.ipynb](../examples/Langchain-Milvus-Query-nomic.ipynb) Query a collection using Langchain with Nomic AI Embeddings |  |
+| **Introduction** | [Getting Started with Pipeline](pipeline) <br> An introduction to `Pipeline`, which can help you better learn the data processing pipeline with Towhee. |  |
+| **Image** | [Reverse Image Search](image/reverse_image_search) <br> Search for images that are similar or related to the input image, it supports a lot of models such as ResNet, VGG, EfficientNet, ViT, etc. | [Image Embedding](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Image-Embedding) <br> [Timm](https://towhee.io/image-embedding/timm) |
+| | [Image Animation](image/image_animation) <br> Convert an image into an animated image. | [Animegan](https://towhee.io/img2img-translation/animegan) <br> [Cartoongan](https://towhee.io/img2img-translation/cartoongan) |
+| | [Image Deduplication](image/image_deduplication) <br> Find exact or near-exact duplicates within a collection of images. | [Image Decode](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Image-Decode) <br> [Timm](https://towhee.io/image-embedding/timm) |
+| | [Text Image Search](image/text_image_search) <br> Returns images related to the description of the input query text, which is cross-modal retrieval. | [CLIP](https://towhee.io/image-text-embedding/clip) |
+| | [Visualization](image/visualization) <br> Under the hood: Embedding models and ANNS indexes in image search. | [Image Embedding](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Image-Embedding) |
+| **NLP** | [Q&A System](nlp/question_answering) <br> Process user questions and give answers through natural language technology. | [Text Embedding](https://towhee.io/tasks/detail/operator?field_name=Natural-Language-Processing&task_name=Text-Embedding) <br> [DPR](https://towhee.io/text-embedding/dpr) |
+| | [Text Search](nlp/text_search) <br> Search most similar text to the query text across all data. | [DPR](https://towhee.io/text-embedding/dpr) |
+| **Video** | [Reverse Video Search](video/reverse_video_search) <br> It takes a video as input to search for similar videos. | [Action Classification](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Action-Classification) <br> [Pytorchvideo](https://towhee.io/action-classification/pytorchvideo) |
+| | [Video Classification](video/video_tagging) <br> Video Classification is the task of producing a label that is relevant to the video given its frames. | [Action Classification](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Action-Classification) |
+| | [Text Video Search](video/text_video_retrieval) <br> Search for similar or related videos with the input text. | [CLIP4Clip](https://towhee.io/video-text-embedding/clip4clip) |
+| | [Deepfake Detection](video/deepfake_detection) <br> Predict the probability of a fake video for a given video. | [Deepfake](https://towhee.io/towhee/deepfake) |
+| **Audio** | [Audio Classification](audio/audio_classification) <br> Categorize certain sounds into certain categories, such as ambient sound classification and speech recognition. | [Audio Classification](https://towhee.io/tasks/detail/operator?field_name=Audio&task_name=Audio-Classification) |
+| **Medical** | [Molecular Search](medical/molecular_search) <br> Search for similar molecular formulas based on the Tanimoto metric, and also supports searching for substructures and superstructures. | [RDKit](https://towhee.io/molecular-fingerprinting/rdkit) |
+| **Data Science** | [Credit Card Approval Prediction](data_science/credit_card_approval_prediction) <br> Predict whether the bank issues a credit card to the applicant, and the credit scores can objectively quantify the magnitude of risk. |  |
+| **Training** | [Fine Tune](fine_tune) <br> Tutorial about how to fine tune with Towhee. | [Image Embedding](https://towhee.io/tasks/detail/operator?field_name=Computer-Vision&task_name=Image-Embedding) |
+
+We welcome new contributions! If you have any interesting examples or improvements, feel free to submit a pull request.

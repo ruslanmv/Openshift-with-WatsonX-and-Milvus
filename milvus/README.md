@@ -104,8 +104,3 @@ All of this can be done either using the PyMilvus library or the Attu UI deploye
 
 Several example notebooks are available to show how to use Milvus:
 
-* Collection creation and document ingestion using Langchain: [Langchain-Milvus-Ingest.ipynb](../examples/Langchain-Milvus-Ingest.ipynb)
-* Collection creation and document ingestion using Langchain with Nomic AI Embeddings: [Langchain-Milvus-Ingest-nomic.ipynb](../examples/Langchain-Milvus-Ingest-nomic.ipynb)
-* Query a collection using Langchain: [Langchain-Milvus-Query.ipynb](../examples/Langchain-Milvus-Query.ipynb)
-* Query a collection using Langchain with Nomic AI Embeddings: [Langchain-Milvus-Query-nomic.ipynb](../examples/Langchain-Milvus-Query-nomic.ipynb)
-

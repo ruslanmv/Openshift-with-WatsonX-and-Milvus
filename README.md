@@ -52,6 +52,12 @@ Running the Demo
 
 To run the demo, simply execute the provided Python script. The script will guide you through the Multimodal demo, from document loading to querying the knowledge graph.
 
+Examples of Milvus
+-----
+
+In repository we have many interesting examples that use Towhee to process various unstructured data like images, audio, video, etc. You can easily run these examples on your machine.
+[here](./examples/README.md)
+
 Note
 ----
 
